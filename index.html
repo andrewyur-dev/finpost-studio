@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FinPost Studio is a local-first publishing workspace for educational finance videos.">
+  <title>FinPost Studio — Publish with confidence</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="./"><span>F</span> FinPost <em>Studio</em></a>
+    <nav aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a>
+      <a href="#tiktok">TikTok integration</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">LOCAL-FIRST CREATOR WORKFLOW</p>
+        <h1>One finished video.<br><strong>Three thoughtful posts.</strong></h1>
+        <p class="lead">FinPost Studio helps creators review and publish educational finance videos to YouTube Shorts, TikTok, and Instagram Reels—without reusing the same generic copy everywhere.</p>
+        <div class="hero-actions">
+          <a class="button" href="#how-it-works">See how it works</a>
+          <a class="text-link" href="#safety">Read our safety approach →</a>
+        </div>
+      </div>
+      <div class="workflow-card" aria-label="Example publishing checklist">
+        <div class="card-top"><span>Episode ready</span><b>✓</b></div>
+        <h2>Compound interest,<br>explained simply</h2>
+        <div class="destination"><i class="youtube">▶</i><span><b>YouTube Shorts</b><small>Title + long description</small></span><em>@Yursteer</em></div>
+        <div class="destination"><i class="tiktok">♪</i><span><b>TikTok</b><small>Native caption + disclosure</small></span><em>@larpez</em></div>
+        <div class="destination"><i class="instagram">◎</i><span><b>Instagram Reels</b><small>Reels caption + sources</small></span><em>Selected account</em></div>
+        <div class="confirm">Review complete · confirmation required</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Product principles">
+      <span>No social passwords stored</span><span>Official platform APIs</span><span>Explicit confirmation</span><span>Educational content guardrails</span>
+    </section>
+
+    <section id="how-it-works" class="section">
+      <div class="section-heading"><p class="eyebrow">THE WORKFLOW</p><h2>Review everything before anything leaves your computer.</h2></div>
+      <div class="steps-grid">
+        <article><b>01</b><h3>Add the finished video</h3><p>Select the vertical MP4 created in your existing production workflow. FinPost checks its dimensions, duration, codecs, audio, and file size.</p></article>
+        <article><b>02</b><h3>Tailor each destination</h3><p>Edit the YouTube title and description, TikTok caption, and Instagram caption separately. Select the intended account for every platform.</p></article>
+        <article><b>03</b><h3>Preview and confirm</h3><p>Watch the video, review every description and disclosure, verify destination accounts, and explicitly confirm the final batch.</p></article>
+      </div>
+    </section>
+
+    <section id="tiktok" class="section split">
+      <div>
+        <p class="eyebrow">TIKTOK INTEGRATION</p>
+        <h2>Authorization stays with TikTok.</h2>
+        <p>FinPost Studio uses TikTok Login Kit for account authorization and the Content Posting API for creator-approved publishing. The creator logs in on TikTok, reviews the requested permissions, and can revoke access through TikTok.</p>
+        <p>The integration requests only the permissions required to identify the authorized creator and publish content they explicitly approve.</p>
+      </div>
+      <div class="permission-card">
+        <div><code>user.info.basic</code><span>Confirm the authorized creator identity</span></div>
+        <div><code>video.publish</code><span>Post a creator-confirmed video and caption</span></div>
+        <div><code>push_by_file</code><span>Transfer only the selected local MP4</span></div>
+      </div>
+    </section>
+
+    <section id="safety" class="section safety-section">
+      <div class="section-heading"><p class="eyebrow">DESIGNED FOR CONTROL</p><h2>The creator remains the final decision-maker.</h2></div>
+      <div class="safety-grid">
+        <article><h3>Account locks</h3><p>The selected account profile is checked against the identity returned by the platform before upload.</p></article>
+        <article><h3>Local token protection</h3><p>OAuth tokens are encrypted on the creator’s device. FinPost never asks for a TikTok, Google, or Instagram password.</p></article>
+        <article><h3>Disclosure checks</h3><p>Creator-supplied sponsorship, affiliate, and educational disclaimers must remain in every platform’s copy.</p></article>
+        <article><h3>No surprise publishing</h3><p>Dry-run is the default. Live publishing requires an explicit final confirmation for every batch.</p></article>
+      </div>
+    </section>
+
+    <section class="contact">
+      <p class="eyebrow">SUPPORT</p>
+      <h2>Questions about FinPost Studio?</h2>
+      <p>Open a support request in the public project repository. Do not include passwords, OAuth tokens, or private account information.</p>
+      <a class="button" href="https://github.com/andrewyur-dev/finpost-studio/issues" rel="noreferrer">Visit support →</a>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="./"><span>F</span> FinPost <em>Studio</em></a><p>Local-first publishing for educational finance creators.</p><nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="https://github.com/andrewyur-dev/finpost-studio">GitHub</a></nav></footer>
+</body>
+</html>
